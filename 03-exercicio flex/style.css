@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-items{
+    width: 1080px;
+    min-height: 200px;
+    /* background-color: #94c8d6; */
+    border: 20px solid tomato;
+    display: flex;
+    gap: 10px;
+}
+
+.items{
+    min-width: 100px;
+    padding: 50px;
+    background-color: #009cb8;
+    border: 3px solid #000
+}
+
+.description{
+    width: 1080px;
+    height: 100px;
+    background-color: tomato;
+    color: #000;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.description p {
+    border-top: 1px solid #000;
+}
+
+.exer01{
+    align-items: center;    
+}
+.exer02 {
+    align-items: center; 
+    justify-content: center;    
+}
+.exer03 {
+    align-items: flex-end; 
+    justify-content: flex-end;  
+}
+.exer04 {
+    align-items: center; 
+    justify-content: space-between;   
+}
+.exer05 {
+    align-items: center; 
+    justify-content: space-around;  
+}
+.exer06 {
+    align-items: center; 
+    justify-content: space-evenly;  
+}
+.exer07 {
+    align-items: center; 
+    justify-content: flex-end;  
+}
+.exer07 div:nth-child(1){
+margin-right: auto;
+}
+.exer08 {
+    align-items: center;
+    flex-direction: column;    
+}
+.exer09 {
+    align-items: flex-end;
+    flex-direction: column;    
+}
+.exer09 div:nth-child(3){
+    align-self: stretch;
+    background-color: rgb(185, 141, 141);
+}
+.exer10 {
+    align-items:center;  
+}
+.exer11 {
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.exer12 {
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.exer12 div:nth-child(odd){
+    background-color: rgb(185, 141, 141);
+    flex-grow: 1;
+}
+.exer13 {
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.exer13 div:nth-child(odd){
+    background-color: rgb(185, 141, 141);
+    flex-grow: 1;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
